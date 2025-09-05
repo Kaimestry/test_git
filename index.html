@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="container-title">KAIMESTRY'S GAME</h2>
+        <div class="gameplay">
+            <div class="select" id="player">
+                <p>Player's choose:</p>
+                
+                <div class="selection">
+                    <button class="option" id="rockBtn">ROCK🪨</button>
+                    <button class="option" id="paperBtn">PAPER📄</button>
+                    <button class="option" id="scissorsBtn">SCISSORS✂️</button>
+                </div>
+             
+            </div>
+
+
+            <div class="select" id="computer">
+                <p>Computer's choose:</p>
+                <div class="selection" id="bot-selection">*waiting for player*</div>
+            </div>
+        </div>
+        <div class="result">
+            <h3 id="resultText">RESULT:</h3>
+        </div>
+
+        <div class="retry">
+            <h4>CLICK HERE TO PLAY AGAIN</h4>
+            <h4>-></h4>
+            <button id="retryBtn">play again</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
